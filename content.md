@@ -287,7 +287,7 @@ get("/dice/2/6") do
 end
 ```
 
-Note that I'm using the [interpolation technique for adding strings together, rather than `+` and `to_s`](https://learn.firstdraft.com/lessons/113#string-interpolation-alternative-to-to_s). This is a very handy technique, and I will start using it a lot from now on — adding strings together with `+` and having to worry about `.to_s` is very tedious for me, especially now that we're crafting these very long strings that will become HTTP response bodies.
+Note that I'm using the [interpolation technique for adding strings together, rather than `+` and `to_s`](https://learn.firstdraft.com/lessons/113-ruby-intro-printing-and-string-interpolation#string-interpolation-alternative-to-to_s). This is a very handy technique, and I will start using it a lot from now on — adding strings together with `+` and having to worry about `.to_s` is very tedious for me, especially now that we're crafting these very long strings that will become HTTP response bodies.
 
 Now try visiting `/dice/2/6` in your live app preview. You should see a response that was dynamically generated on the fly:
 
