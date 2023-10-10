@@ -1,10 +1,5 @@
 # Our first web app with Sinatra
 
-<div class="bg-blue-100 py-1 px-5" markdown="1">
-
-[Here is a video for this lesson](https://share.descript.com/view/yWLc5Hb7vXy). You should not rely entirely on the video. PLEASE READ the below lesson as you are going through the steps, since there is much more detail in the text than in the video.
-</div>
-
 Now that we've seen how to _send_ HTTP requests with Ruby, let's learn how to _receive_ HTTP requests and send back HTTP responses. In other words, it's time to finally do what we set out to do at the beginning of this course: **build a dynamic web application**.
 
 In order to listen for HTTP requests, we need a piece of software called a "web server". It would be an interesting challenge to write a web server from scratch, but it's not the best use of our time right now. So, we'll use the Puma gem, one of the many free, open-source, and powerful Ruby web servers that are available.
@@ -28,6 +23,11 @@ The sinatra-dice-roll repo is simply a copy of the `appdev-projects/ruby-templat
 Our target for this lesson and the next is to build an app that matches this: 
 
 [dice-roll.matchthetarget.com](https://dice-roll.matchthetarget.com/)
+
+<div class="bg-blue-100 py-1 px-5" markdown="1">
+
+[Here is a video for the first steps in this lesson](https://share.descript.com/view/yWLc5Hb7vXy). You should not rely entirely on the video since it only contains the very first steps for launching a Sinatra web app. PLEASE READ the below lesson as you are going through the steps.
+</div>
 
 ## Create a Gemfile
 
