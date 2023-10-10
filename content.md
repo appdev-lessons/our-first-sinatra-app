@@ -1,5 +1,10 @@
 # Our first web app with Sinatra
 
+<div class="bg-blue-100 py-1 px-5" markdown="1">
+
+[Here is a video for this lesson](https://share.descript.com/view/yWLc5Hb7vXy). You should not rely entirely on the video. PLEASE READ the below lesson as you are going through the steps, since there is much more detail in the text than in the video.
+</div>
+
 Now that we've seen how to _send_ HTTP requests with Ruby, let's learn how to _receive_ HTTP requests and send back HTTP responses. In other words, it's time to finally do what we set out to do at the beginning of this course: **build a dynamic web application**.
 
 In order to listen for HTTP requests, we need a piece of software called a "web server". It would be an interesting challenge to write a web server from scratch, but it's not the best use of our time right now. So, we'll use the Puma gem, one of the many free, open-source, and powerful Ruby web servers that are available.
@@ -8,15 +13,15 @@ In keeping with our philosophy of not reinventing wheels, in order to parse HTTP
 
 Let's get started!
 
----
-
-[Here is a video for this lesson](https://share.descript.com/view/yWLc5Hb7vXy). You should not rely entirely on the video. PLEASE READ the below lesson as you are going through the steps, since there is much more detail in the text than in the video.
-
 ## Create a codespace
 
 For our first dynamic web app, we'll write a simple tool that displays the outcome of dice rolls — but this time, in the browser, rather than in the terminal!
 
-We'll use the `appdev-projects/sinatra-dice-roll` repository to explore. Since there are no automated tests included in this project, [you can click here to fork it directly to your personal account](https://github.com/appdev-projects/sinatra-dice-roll/fork). Then, set up a codespace based on your fork.
+We'll use the `appdev-projects/sinatra-dice-roll` repository to explore. Since there are no automated tests included in this project, 
+
+[**you can click here to fork it directly to your personal account**](https://github.com/appdev-projects/sinatra-dice-roll/fork). 
+
+Then, set up a codespace based on your fork.
 
 The sinatra-dice-roll repo is simply a copy of the `appdev-projects/ruby-template` repo — in other words, it starts out completely blank. We will be building up our first web application starting from scratch.
 
